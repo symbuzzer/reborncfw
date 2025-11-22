@@ -14,8 +14,9 @@
 - **eol** : EoL alert message URL for EoL services *(for example Big Screen app)*
 - **homepage** : Homepage of default browser
 - **modules** : OTA update page for modules
-- **store** : Store app's URL
+- **store** : Store widget URL
 - **tts** : URL of ```Settings > Phone > Speech > Download languages``` option
+- **update** : Update checker widget URL
 - **y** : 3rd party Youtube service URL in default bookmarks
 
 ## FILES
