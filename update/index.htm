@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+  const p = new URLSearchParams(location.search);
+  const v = p.get("version");
+  if (v) {
+    location.replace("https://avalibeyaz.com/s3/cfwupdatecheck.php?version=" + encodeURIComponent(v));
+  }
+</script>
+</head>
+<body></body>
+</html>
