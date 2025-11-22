@@ -8,12 +8,13 @@
 - Finally, please don't forget to check out the notes below.
 
 ## FAQ
-- Why am I hosting all of Reborn CFW's online services on a dedicated server instead of migrating them to Github? There are two main reasons:
-  - Github Pages can't run PHP files, and some services are entirely PHP-based (see the .examples folder).
-  - Some files (e.g., apps and games from the store) have licensing issues.
+- Why am I hosting all of Reborn CFW's online services on a dedicated server instead of migrating them to Github?
+  - 1st reason: Github Pages can't run PHP files, and some services are entirely PHP-based (see the .examples folder).
+  - 2nd reason: Some files (e.g., apps and games from the store) have licensing issues.
  
 - Do you need to make any changes to the CFW files?
-  - You only need to update the version value in the CORE\data\update\index.htm file each time you create a new CFW update. You don't need to make any changes to the CFW for other online services.
+  - You only need to update the ```version``` value in the ```CORE\data\update\index.htm``` file each time you create a new CFW update. You don't need to make any changes to the CFW for other online services.
+  - See the notes for detailed information about the version value.
 
 ## FOLDERS
 - **changelog** : Changelog URL of Reborn updates
@@ -35,3 +36,4 @@
 - ConnTest URL should be: ```https://symbuzzer.github.io/reborncfw/conntest/``` not ```symbuzzer.github.io/reborncfw/conntest``` or ```http://symbuzzer.github.io/reborncfw/conntest```
 - Dummy URL should be ```https://symbuzzer.github.io/reborncfw/dummy/``` not ```symbuzzer.github.io/reborncfw/dummy``` or ```http://symbuzzer.github.io/reborncfw/dummy```
 - UAProf XML URL should be ```https://raw.githubusercontent.com/symbuzzer/reborncfw/refs/heads/main/uaprof/NN8-00r310-3G.xml``` in ROFS2\private\10202be9\101f8731.txt file
+- Version value in ```CORE\data\update\index.htm``` file should be the same length as the value in the redirected PHP file. Please browse to the ```.examples/cfwupdatecheck.php``` file.
