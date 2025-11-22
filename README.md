@@ -7,7 +7,7 @@
 - You can find examples of some technical web pages in the ```.examples/``` folder.
 - Finally, please don't forget to check out the notes below.
 
-## FAQ
+## FAQS
 - Why am I hosting all of Reborn CFW's online services on a dedicated server instead of migrating them to Github?
   - 1st reason: Github Pages can't run PHP files and some services are entirely PHP-based. *(see the .examples folder)*
   - 2nd reason: Some files (e.g., apps and games from the store) have licensing issues.
