@@ -13,8 +13,7 @@
   - 2nd reason: Some files (e.g., apps and games from the store) have licensing issues.
  
 - Do you need to make any changes to the CFW files?
-  - You only need to update the ```version``` value in the ```CORE\data\update\index.htm``` file each time you create a new CFW update. You don't need to make any changes to the CFW for other online services.
-  - See the notes for detailed information about the version value.
+  - You only need to update the ```version``` value in the ```CORE\data\update\index.htm``` file each time you create a new CFW update. You don't need to make any changes to the CFW for other online services. *(See the notes for detailed information about the version value.)*
 
 ## FOLDERS
 - **changelog** : Changelog URL of Reborn updates
