@@ -7,6 +7,14 @@
 - You can find examples of some technical web pages in the ```.examples/``` folder.
 - Finally, please don't forget to check out the notes below.
 
+## FAQ
+- Why am I hosting all of Reborn CFW's online services on a dedicated server instead of migrating them to Github? There are two main reasons:
+  - Github Pages can't run PHP files, and some services are entirely PHP-based (see the .examples folder).
+  - Some files (e.g., apps and games from the store) have licensing issues.
+ 
+- Do you need to make any changes to the CFW files?
+  - You only need to update the version value in the CORE\data\update\index.htm file each time you create a new CFW update. You don't need to make any changes to the CFW for other online services.
+
 ## FOLDERS
 - **changelog** : Changelog URL of Reborn updates
 - **conntest** : Connection test server URL
