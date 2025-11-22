@@ -9,7 +9,7 @@
 
 ## FAQ
 - Why am I hosting all of Reborn CFW's online services on a dedicated server instead of migrating them to Github?
-  - 1st reason: Github Pages can't run PHP files, and some services are entirely PHP-based (see the .examples folder).
+  - 1st reason: Github Pages can't run PHP files, and some services are entirely PHP-based *(see the .examples folder.)*
   - 2nd reason: Some files (e.g., apps and games from the store) have licensing issues.
  
 - Do you need to make any changes to the CFW files?
