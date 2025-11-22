@@ -25,7 +25,7 @@
 - **store** : Store widget URL
 - **tts** : URL of ```Settings > Phone > Speech > Download languages``` option
 - **update** : Update checker widget URL
-- **y** : 3rd party Youtube service URL in default bookmarks
+- **y** : 3rd party Youtube service URL in default bookmarks and Store option in Videos app when Store app not installed.
 
 ## FILES
 - **index.htm** : Reborn CFW URL in default bookmarks
