@@ -1,4 +1,4 @@
-# REBORN CFW'S ONLINE SERVICES REPO
+# REBORN CFW'S ONLINE SERVICES BRIDGE
 
 ## MANIFEST
 - This repo was created to ensure that Reborn CFW's online services remain transparent and up-to-date.
