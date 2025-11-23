@@ -8,6 +8,7 @@
 - Finally, please don't forget to check out the notes below.
 
 ## COLLABORATORS
+- Main dev is me ;)
 - [Dante](https://github.com/AlirezaM1376) from [Symbian World Telegram Group](https://t.me/symbian_world)
 - [JigokuMaster](https://github.com/JigokuMaster/) from [Symbian World Telegram Group](https://t.me/symbian_world)
 
@@ -40,3 +41,6 @@
 - Dummy URL should be ```https://symbuzzer.github.io/reborncfw/dummy/``` not ```symbuzzer.github.io/reborncfw/dummy``` or ```http://symbuzzer.github.io/reborncfw/dummy```
 - UAProf XML URL should be ```https://raw.githubusercontent.com/symbuzzer/reborncfw/refs/heads/main/uaprof/NN8-00r310-3G.xml``` in ROFS2\private\10202be9\101f8731.txt file
 - Version value in ```CORE\data\update\index.htm``` file should be the same length as the value in the redirected PHP file. Please browse to the ```.examples/cfwupdatecheck.php``` file.
+
+## ACTIVE SERVER
+avalibeyaz.com/s3/*
