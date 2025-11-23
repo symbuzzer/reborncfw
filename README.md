@@ -7,6 +7,10 @@
 - You can find examples of some technical web pages in the ```.examples/``` folder.
 - Finally, please don't forget to check out the notes below.
 
+## COLLABORATORS
+- [Dante](https://github.com/AlirezaM1376) from [Symbian World Telegram Group](https://t.me/symbian_world)
+- [JigokuMaster](https://github.com/JigokuMaster/) from [Symbian World Telegram Group](https://t.me/symbian_world)
+
 ## FAQS
 - Why am I hosting all of Reborn CFW's online services on a dedicated server instead of migrating them to Github?
   - 1st reason: Github Pages can't run PHP files and some services are entirely PHP-based. *(see the .examples folder)*
