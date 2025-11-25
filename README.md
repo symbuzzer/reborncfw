@@ -21,12 +21,10 @@
   - You only need to update the ```version``` value in the ```CORE\data\update\index.htm``` file each time you create a new CFW update. You don't need to make any changes to the CFW for other online services. *(See the notes for detailed information about the version value.)*
 
 ## FOLDERS
-- **changelog** : Changelog URL of Reborn updates
 - **conntest** : Connection test server URL
 - **dummy** : Dummy URL for EoL services
 - **eol** : EoL alert message URL for EoL services *(for example Big Screen app)*
 - **homepage** : Homepage of default browser
-- **modules** : OTA update page for modules
 - **store** : Store widget URL
 - **tts** : URL of ```Settings > Phone > Speech > Download languages``` option
 - **update** : Update checker widget URL
