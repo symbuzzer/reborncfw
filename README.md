@@ -26,6 +26,7 @@
 - **dummy** : Dummy URL for EoL services
 - **eol** : EoL alert message URL for EoL services *(for example Big Screen app)*
 - **homepage** : Homepage of default browser
+- **review** : Review widget URL
 - **store** : Store widget URL
 - **tts** : URL of ```Settings > Phone > Speech > Download languages``` option
 - **update** : Update checker widget URL
