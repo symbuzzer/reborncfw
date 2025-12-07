@@ -26,13 +26,32 @@ html, body {
   width:231px;
   height:231px;
 }
+#snow { 
+  position: fixed; 
+  left:0; top:0; 
+  width:100%; height:100%; 
+  pointer-events:none; 
+  z-index:9999; 
+}
 </style>
 </head>
 <body>
+<canvas id="snow"></canvas>
 <div class="outer">
   <div class="middle">
     <img class="qr" src="qr.png" />
   </div>
 </div>
+
+<script>
+var now=new Date(),d=now.getDate(),m=now.getMonth()+1,y=now.getFullYear();
+var show=(y===2025&&m===12&&d===31)||(y===2026&&m===1&&d===1);
+if(!show){document.getElementById("snow").style.display="none";}else{
+var c=document.getElementById("snow");if(!c.getContext)return;var x=c.getContext("2d");
+function r(){c.width=window.innerWidth;c.height=window.innerHeight;}r();window.onresize=r;
+var f=[],n=40;for(var i=0;i<n;i++){f.push({x:Math.random()*c.width,y:Math.random()*c.height,r:1+Math.random()*3,vy:0.5+Math.random()*1});}
+function draw(){x.clearRect(0,0,c.width,c.height);for(var i=0;i<n;i++){var a=f[i];a.y+=a.vy;if(a.y>c.height)a.y=-5;x.beginPath();x.fillStyle="white";x.arc(a.x,a.y,a.r,0,6.28);x.fill();}setTimeout(draw,30);}draw();}
+</script>
+
 </body>
 </html>
