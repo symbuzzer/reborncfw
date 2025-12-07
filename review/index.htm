@@ -6,33 +6,11 @@
 <meta http-equiv="expires" content="0" />
 <title>...</title>
 <style type="text/css">
-html, body {
-  margin:0;
-  padding:0;
-  height:100%;
-  background-color:#000000;
-  text-align:center;
-}
-.outer {
-  display: table;
-  width: 100%;
-  height: 100%;
-}
-.middle {
-  display: table-cell;
-  vertical-align: middle;
-}
-.qr {
-  width:231px;
-  height:231px;
-}
-#snow {
-  position: fixed;
-  left:0; top:0;
-  width:100%; height:100%;
-  pointer-events:none;
-  z-index:9999;
-}
+html, body { margin:0; padding:0; height:100%; background:#000; text-align:center; }
+.outer { display:table; width:100%; height:100%; }
+.middle { display:table-cell; vertical-align:middle; }
+.qr { width:231px; height:231px; }
+#snow { position:fixed; left:0; top:0; width:100%; height:100%; pointer-events:none; z-index:9999; }
 </style>
 </head>
 <body>
@@ -46,18 +24,23 @@ html, body {
 
 <script>
 var n=new Date(),d=n.getDate(),m=n.getMonth()+1,y=n.getFullYear();
-var s=(y===2025&&m===12&&d===31)||(y===2026&&m===1&&d===1);
+var ok=(y===2025&&m===12&&d===31)||(y===2026&&m===1&&d===1);
 var c=document.getElementById("snow");
-if(!s){c.style.display="none";}else{
-var w=document.documentElement.clientWidth||320;
-var h=document.documentElement.clientHeight||480;
-c.width=w; c.height=h;
+if(!ok){c.style.display="none";}else{
 var ctx=c.getContext("2d");
-var fl=[],fc=40;
-for(var i=0;i<fc;i++){
- fl.push({x:Math.random()*w,y:Math.random()*h,r:1+Math.random()*3,vy:0.5+Math.random()});
+var w,h;
+function rs(){
+ w=document.documentElement.clientWidth||window.innerWidth||320;
+ h=document.documentElement.clientHeight||window.innerHeight||480;
+ c.width=w; c.height=h;
 }
-function draw(){
+rs();
+var fl=[],fc=50;
+for(var i=0;i<fc;i++){
+ fl.push({x:Math.random()*w,y:Math.random()*h,r:1+Math.random()*3,vy:0.4+Math.random()});
+}
+function loop(){
+ rs();
  ctx.clearRect(0,0,w,h);
  for(var i=0;i<fc;i++){
   var f=fl[i];
@@ -68,9 +51,9 @@ function draw(){
   ctx.arc(f.x,f.y,f.r,0,6.28);
   ctx.fill();
  }
- setTimeout(draw,30);
+ setTimeout(loop,30);
 }
-draw();
+loop();
 }
 </script>
 
