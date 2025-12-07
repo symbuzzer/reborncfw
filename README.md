@@ -11,6 +11,7 @@
 - Main dev is me ;)
 - [Dante](https://github.com/AlirezaM1376) from [Symbian World Telegram Group](https://t.me/symbian_world)
 - [JigokuMaster](https://github.com/JigokuMaster/) from [Symbian World Telegram Group](https://t.me/symbian_world)
+- [Mert](https://github.com/okyanusmert61-source) from [Symbian World Telegram Group](https://t.me/symbian_world)
 
 ## FAQS
 - Why am I hosting all of Reborn CFW's online services on a dedicated server instead of migrating them to Github?
