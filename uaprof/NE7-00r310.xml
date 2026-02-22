@@ -1,0 +1,705 @@
+<!--
+  ========================================================= 
+-->
+<!--
+                                                            
+-->
+<!--
+  Copyright (c) 2011 Nokia. All rights reserved.            
+-->
+<!--
+                                                            
+-->
+<!--
+  The contents of this document are provided "as is".       
+-->
+<!--
+  No warranties of any kind, either express or implied,     
+-->
+<!--
+  including, but not limited to, the implied warranties     
+-->
+<!--
+  of merchantability and fitness for a particular           
+-->
+<!--
+  purpose, are made in relation to the accuracy,            
+-->
+<!--
+  reliability or contents of this document. Nokia           
+-->
+<!--
+  reserves the right to revise this document or             
+-->
+<!--
+  withdraw it at any time without prior notice.             
+-->
+<!--
+                                                            
+-->
+<!--
+  ========================================================= 
+-->
+<!--
+  ========================================================= 
+-->
+<!--
+  Device: NokiaE7-00                                        
+-->
+<!--
+  Valid beginning from version v111.040.1403                
+-->
+<!--
+  User Agent Header:                                        
+-->
+<!--
+  Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaE7-00/030.100;  
+-->
+<!--
+      Profile/MIDP-2.1 Configuration/CLDC-1.1)              
+-->
+<!--
+      AppleWebkit/535.1 (KHTML, like Gecko)                 
+-->
+<!--
+      NokiaBrowser/8.3.1 MobileSafari/535.1 3gpp-gba        
+-->
+<!--
+  ========================================================= 
+-->
+<!--
+  Schemas used: uaprof, MMS, streaming                      
+-->
+<rdf:RDF>
+<!--
+  Start of uaprofile                                    
+-->
+<rdf:Description rdf:ID="Profile">
+<!--  Start of Hardware component -->
+<prf:component>
+<rdf:Description rdf:ID="HardwarePlatform">
+<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#HardwarePlatform"/>
+<prf:BluetoothProfile>
+<rdf:Bag>
+<rdf:li>Headset Profile</rdf:li>
+<rdf:li>Handsfree Profile</rdf:li>
+<rdf:li>SIM Access Profile</rdf:li>
+<rdf:li>Dial-up Networking Profile</rdf:li>
+<rdf:li>Basic Imaging Profile</rdf:li>
+<rdf:li>Object Push Profile</rdf:li>
+<rdf:li>File Transfer Profile</rdf:li>
+<rdf:li>General Access Profile</rdf:li>
+<rdf:li>Service Discovery Profile</rdf:li>
+<rdf:li>Serial Port Profile</rdf:li>
+<rdf:li>General Object Exchange Profile</rdf:li>
+<rdf:li>Advanced Audio Distribution Profile</rdf:li>
+<rdf:li>Audio/Video Remote Control Profile</rdf:li>
+<rdf:li>Phone Book Access Profile</rdf:li>
+<rdf:li>Bluetooth Data Transfer Indicator Profile</rdf:li>
+</rdf:Bag>
+</prf:BluetoothProfile>
+<prf:BitsPerPixel>24</prf:BitsPerPixel>
+<prf:ColorCapable>Yes</prf:ColorCapable>
+<prf:CPU>ARM</prf:CPU>
+<prf:ImageCapable>Yes</prf:ImageCapable>
+<prf:InputCharSet>
+<rdf:Bag>
+<rdf:li>ISO-8859-1</rdf:li>
+<rdf:li>ISO-10646-UCS-2</rdf:li>
+<rdf:li>US-ASCII</rdf:li>
+<rdf:li>UTF-8</rdf:li>
+</rdf:Bag>
+</prf:InputCharSet>
+<prf:Keyboard>Qwerty</prf:Keyboard>
+<prf:Model>E7-00</prf:Model>
+<prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+<prf:OutputCharSet>
+<rdf:Bag>
+<rdf:li>ISO-8859-1</rdf:li>
+<rdf:li>ISO-10646-UCS-2</rdf:li>
+<rdf:li>US-ASCII</rdf:li>
+<rdf:li>UTF-8</rdf:li>
+</rdf:Bag>
+</prf:OutputCharSet>
+<prf:PixelAspectRatio>1x1</prf:PixelAspectRatio>
+<prf:PointingResolution>Pixel</prf:PointingResolution>
+<prf:ScreenSize>360x640</prf:ScreenSize>
+<prf:ScreenSizeChar>17x13</prf:ScreenSizeChar>
+<prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+<prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+<prf:TextInputCapable>Yes</prf:TextInputCapable>
+<prf:Vendor>Nokia</prf:Vendor>
+<prf:VoiceInputCapable>Yes</prf:VoiceInputCapable>
+</rdf:Description>
+<!-- End of Hardware component -->
+</prf:component>
+<!-- Start of SoftwarePlatform component -->
+<prf:component>
+<rdf:Description rdf:ID="SoftwarePlatform">
+<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#SoftwarePlatform"/>
+<prf:AcceptDownloadableSoftware>Yes</prf:AcceptDownloadableSoftware>
+<prf:AudioInputEncoder>
+<rdf:Bag>
+<rdf:li>AMR</rdf:li>
+<rdf:li>EFR</rdf:li>
+<rdf:li>FR</rdf:li>
+<rdf:li>HR</rdf:li>
+</rdf:Bag>
+</prf:AudioInputEncoder>
+<prf:CcppAccept>
+<rdf:Bag>
+<rdf:li>application/java</rdf:li>
+<rdf:li>application/java-archive</rdf:li>
+<rdf:li>application/mspowerpoint</rdf:li>
+<rdf:li>application/msword</rdf:li>
+<rdf:li>application/pdf</rdf:li>
+<rdf:li>application/sdp</rdf:li>
+<rdf:li>application/vnd.ms-excel</rdf:li>
+<rdf:li>application/vnd.ms-excel.sheet.macroEnabled</rdf:li>
+<rdf:li>application/vnd.ms-powerpoint</rdf:li>
+<rdf:li>application/vnd.ms-word</rdf:li>
+<rdf:li>application/vnd.ms-word.document.macroEnabled</rdf:li>
+<rdf:li>application/vnd.msword</rdf:li>
+<rdf:li>application/vnd.nokia.landmarkcollection+xml</rdf:li>
+<rdf:li>application/vnd.nokia.ringing-tone</rdf:li>
+<rdf:li>application/vnd.oma.dd+xml</rdf:li>
+<rdf:li>application/vnd.oma.drm.content</rdf:li>
+<rdf:li>application/vnd.oma.drm.dcf</rdf:li>
+<rdf:li>application/vnd.oma.drm.message</rdf:li>
+<rdf:li>application/vnd.oma.drm.rights+wbxml</rdf:li>
+<rdf:li>application/vnd.oma.drm.rights+xml</rdf:li>
+<rdf:li>application/vnd.oma.drm.ro+xml</rdf:li>
+<rdf:li>application/vnd.oma.drm.roap-pdu+xml</rdf:li>
+<rdf:li>application/vnd.oma.drm.roap-trigger+xml</rdf:li>
+<rdf:li>application/vnd.presentation-openxml</rdf:li>
+<rdf:li>application/vnd.presentation-openxmlm</rdf:li>
+<rdf:li>application/vnd.rn-realmedia</rdf:li>
+<rdf:li>application/vnd.spreadsheet-openxml</rdf:li>
+<rdf:li>application/vnd.syncml+wbxml</rdf:li>
+<rdf:li>application/vnd.wap.cert-response</rdf:li>
+<rdf:li>application/vnd.wap.connectivity-wbxml</rdf:li>
+<rdf:li>application/vnd.wap.mms-message</rdf:li>
+<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+<rdf:li>application/vnd.wap.sic</rdf:li>
+<rdf:li>application/vnd.wap.slc</rdf:li>
+<rdf:li>application/vnd.wap.wbxml</rdf:li>
+<rdf:li>application/vnd.wap.wmlc</rdf:li>
+<rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+<rdf:li>application/vnd.wap.xhtml+xml</rdf:li>
+<rdf:li>application/vnd.wordprocessing-openxml</rdf:li>
+<rdf:li>application/x-java-archive</rdf:li>
+<rdf:li>application/x-javascript</rdf:li>
+<rdf:li>application/x-nokia-widget</rdf:li>
+<rdf:li>application/x-pip</rdf:li>
+<rdf:li>application/x-pn-realmedia</rdf:li>
+<rdf:li>application/x-shockwave-flash</rdf:li>
+<rdf:li>application/x-wap-prov.browser-bookmarks</rdf:li>
+<rdf:li>application/x-x509-ca-cert</rdf:li>
+<rdf:li>application/xhtml+xml</rdf:li>
+<rdf:li>application/xml</rdf:li>
+<rdf:li>audio/3gpp</rdf:li>
+<rdf:li>audio/3gpp2</rdf:li>
+<rdf:li>audio/aac</rdf:li>
+<rdf:li>audio/amr</rdf:li>
+<rdf:li>audio/amr-wb</rdf:li>
+<rdf:li>audio/au</rdf:li>
+<rdf:li>audio/basic</rdf:li>
+<rdf:li>audio/mid</rdf:li>
+<rdf:li>audio/midi</rdf:li>
+<rdf:li>audio/mobile-xmf</rdf:li>
+<rdf:li>audio/mp3</rdf:li>
+<rdf:li>audio/mp4</rdf:li>
+<rdf:li>audio/mpeg</rdf:li>
+<rdf:li>audio/rmf</rdf:li>
+<rdf:li>audio/sp-midi</rdf:li>
+<rdf:li>audio/vnd.rn-realaudio</rdf:li>
+<rdf:li>audio/x-amr</rdf:li>
+<rdf:li>audio/x-au</rdf:li>
+<rdf:li>audio/x-beatnik-rmf</rdf:li>
+<rdf:li>audio/x-mid</rdf:li>
+<rdf:li>audio/x-midi</rdf:li>
+<rdf:li>audio/x-ms-wma</rdf:li>
+<rdf:li>audio/x-pn-realaudio</rdf:li>
+<rdf:li>audio/x-rmf</rdf:li>
+<rdf:li>audio/x-tone-seq</rdf:li>
+<rdf:li>audio/x-wav</rdf:li>
+<rdf:li>audio/m4a</rdf:li>
+<rdf:li>audio/eac3</rdf:li>
+<rdf:li>audio/ac3</rdf:li>
+<rdf:li>audio/vnd.dolby.pulse</rdf:li>
+<rdf:li>image/bmp</rdf:li>
+<rdf:li>image/gif</rdf:li>
+<rdf:li>image/jp2</rdf:li>
+<rdf:li>image/jpeg</rdf:li>
+<rdf:li>image/jpg</rdf:li>
+<rdf:li>image/png</rdf:li>
+<rdf:li>image/svg+xml</rdf:li>
+<rdf:li>image/tiff</rdf:li>
+<rdf:li>image/vnd.nokia.ota-bitmap</rdf:li>
+<rdf:li>image/vnd.wap.wbmp</rdf:li>
+<rdf:li>image/x-bmp</rdf:li>
+<rdf:li>image/x-epoc-mbm</rdf:li>
+<rdf:li>image/x-ms-bmp</rdf:li>
+<rdf:li>image/x-ota-bitmap</rdf:li>
+<rdf:li>image/x-wmf</rdf:li>
+<rdf:li>multipart/mixed</rdf:li>
+<rdf:li>text/calendar</rdf:li>
+<rdf:li>text/css</rdf:li>
+<rdf:li>text/ecmascript</rdf:li>
+<rdf:li>text/html</rdf:li>
+<rdf:li>text/javascript</rdf:li>
+<rdf:li>text/plain</rdf:li>
+<rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+<rdf:li>text/vnd.wap.si</rdf:li>
+<rdf:li>text/vnd.wap.sl</rdf:li>
+<rdf:li>text/vnd.wap.wml</rdf:li>
+<rdf:li>text/xml</rdf:li>
+<rdf:li>text/x-opml</rdf:li>
+<rdf:li>text/x-co-desc</rdf:li>
+<rdf:li>text/x-vCalendar</rdf:li>
+<rdf:li>text/x-vCard</rdf:li>
+<rdf:li>video/3gpp</rdf:li>
+<rdf:li>video/3gpp2</rdf:li>
+<rdf:li>video/mp4</rdf:li>
+<rdf:li>video/vnd.rn-realvideo</rdf:li>
+<rdf:li>video/x-flv</rdf:li>
+<rdf:li>video/x-ms-wmv</rdf:li>
+<rdf:li>x-epoc/x-sisx-app</rdf:li>
+</rdf:Bag>
+</prf:CcppAccept>
+<prf:CcppAccept-Charset>
+<rdf:Bag>
+<rdf:li>ISO-8859-1</rdf:li>
+<rdf:li>ISO-10646-UCS-2</rdf:li>
+<rdf:li>US-ASCII</rdf:li>
+<rdf:li>UTF-8</rdf:li>
+</rdf:Bag>
+</prf:CcppAccept-Charset>
+<prf:CcppAccept-Encoding>
+<rdf:Bag>
+<rdf:li>base64</rdf:li>
+<rdf:li>quoted-printable</rdf:li>
+</rdf:Bag>
+</prf:CcppAccept-Encoding>
+<prf:CcppAccept-Language>
+<rdf:Seq>
+<rdf:li>en-US</rdf:li>
+</rdf:Seq>
+</prf:CcppAccept-Language>
+<prf:JavaEnabled>Yes</prf:JavaEnabled>
+<prf:JavaPlatform>
+<rdf:Bag>
+<rdf:li>CLDC</rdf:li>
+<rdf:li>MIDP</rdf:li>
+<rdf:li>MIDP/1.0-compatible</rdf:li>
+<rdf:li>Profile/MIDP-2.0</rdf:li>
+<rdf:li>Profile/MIDP-2.1</rdf:li>
+<rdf:li>Configuration/CLDC-1.0</rdf:li>
+<rdf:li>Configuration/CLDC-1.1</rdf:li>
+</rdf:Bag>
+</prf:JavaPlatform>
+<prf:JVMVersion>
+<rdf:Bag>
+<rdf:li>J9 VM</rdf:li>
+</rdf:Bag>
+</prf:JVMVersion>
+<prf:MexeClassmarks>
+<rdf:Bag>
+<rdf:li>1</rdf:li>
+<rdf:li>3</rdf:li>
+</rdf:Bag>
+</prf:MexeClassmarks>
+<prf:MexeSpec>7.02</prf:MexeSpec>
+<prf:MexeSecureDomains>Yes</prf:MexeSecureDomains>
+<prf:OSName>Symbian</prf:OSName>
+<prf:OSVendor>Nokia</prf:OSVendor>
+<prf:OSVersion>5.3</prf:OSVersion>
+<prf:RecipientAppAgent>BrowserMail</prf:RecipientAppAgent>
+<prf:SoftwareNumber>5.3</prf:SoftwareNumber>
+<prf:VideoInputEncoder>
+<rdf:Bag>
+<rdf:li>MPEG-4</rdf:li>
+<rdf:li>H.263</rdf:li>
+<rdf:li>H.264</rdf:li>
+</rdf:Bag>
+</prf:VideoInputEncoder>
+<prf:Email-URI-Schemes>
+<rdf:Bag>
+<rdf:li>pop</rdf:li>
+<rdf:li>imap</rdf:li>
+<rdf:li>http</rdf:li>
+<rdf:li>https</rdf:li>
+</rdf:Bag>
+</prf:Email-URI-Schemes>
+</rdf:Description>
+<!-- End of SoftwarePlatform component -->
+</prf:component>
+<!--  Start of NetworkCharacteristics component -->
+<prf:component>
+<rdf:Description rdf:ID="NetworkCharacteristics">
+<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#NetworkCharacteristics"/>
+<prf:SupportedBluetoothVersion>2.0</prf:SupportedBluetoothVersion>
+<prf:CurrentBearerService>TwoWayPacket</prf:CurrentBearerService>
+<prf:SecuritySupport>
+<rdf:Bag>
+<rdf:li>SSL</rdf:li>
+<rdf:li>TLS</rdf:li>
+</rdf:Bag>
+</prf:SecuritySupport>
+<prf:SupportedBearers>
+<rdf:Bag>
+<rdf:li>GPRS</rdf:li>
+<rdf:li>EGPRS</rdf:li>
+<rdf:li>EDGE</rdf:li>
+<rdf:li>WCDMA</rdf:li>
+<rdf:li>HSDPA</rdf:li>
+<rdf:li>WLAN</rdf:li>
+</rdf:Bag>
+</prf:SupportedBearers>
+</rdf:Description>
+<!-- End of NetworkCharacteristics component -->
+</prf:component>
+<!-- Start of BrowserUA component -->
+<prf:component>
+<rdf:Description rdf:ID="BrowserUA">
+<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#BrowserUA"/>
+<prf:BrowserName>Nokia</prf:BrowserName>
+<prf:BrowserVersion>8.3</prf:BrowserVersion>
+<prf:FramesCapable>Yes</prf:FramesCapable>
+<prf:HtmlVersion>5.0</prf:HtmlVersion>
+<prf:JavaAppletEnabled>No</prf:JavaAppletEnabled>
+<prf:JavaScriptEnabled>Yes</prf:JavaScriptEnabled>
+<prf:JavaScriptVersion>1.8</prf:JavaScriptVersion>
+<prf:PreferenceForFrames>No</prf:PreferenceForFrames>
+<prf:TablesCapable>Yes</prf:TablesCapable>
+<prf:XhtmlVersion>2.0</prf:XhtmlVersion>
+<prf:XhtmlModules>
+<rdf:Bag>
+<rdf:li>XHTML1-struct</rdf:li>
+<rdf:li>xhtml-basic10</rdf:li>
+</rdf:Bag>
+</prf:XhtmlModules>
+</rdf:Description>
+<!-- End of BrowserUA component -->
+</prf:component>
+<!-- Start of WapCharacteristics component -->
+<prf:component>
+<rdf:Description rdf:ID="WapCharacteristics">
+<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#WapCharacteristics"/>
+<prf:SupportedPictogramSet>
+<rdf:Bag>
+<rdf:li>core</rdf:li>
+</rdf:Bag>
+</prf:SupportedPictogramSet>
+<prf:WapDeviceClass>C</prf:WapDeviceClass>
+<prf:DrmClass>
+<rdf:Bag>
+<rdf:li>ForwardLock</rdf:li>
+<rdf:li>CombinedDelivery</rdf:li>
+<rdf:li>SeparateDelivery</rdf:li>
+</rdf:Bag>
+</prf:DrmClass>
+<prf:DrmConstraints>
+<rdf:Bag>
+<rdf:li>datetime</rdf:li>
+<rdf:li>count</rdf:li>
+<rdf:li>interval</rdf:li>
+</rdf:Bag>
+</prf:DrmConstraints>
+<prf:OmaDownload>Yes</prf:OmaDownload>
+</rdf:Description>
+<!-- End of WapCharacteristics component -->
+</prf:component>
+<!-- Start of PushCharacteristics component -->
+<prf:component>
+<rdf:Description rdf:ID="PushCharacteristics">
+<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#PushCharacteristics"/>
+<prf:Push-Accept>
+<rdf:Bag>
+<rdf:li>application/vnd.wap.connectivity-wbxml</rdf:li>
+<rdf:li>application/vnd.wap.emn+wbxml</rdf:li>
+<rdf:li>application/vnd.wap.wmlc</rdf:li>
+<rdf:li>application/vnd.wap.xhtml+xml</rdf:li>
+<rdf:li>application/vnd.oma.drm.rights+xml</rdf:li>
+<rdf:li>application/vnd.oma.drm.rights+wbxml</rdf:li>
+<rdf:li>multipart/mixed</rdf:li>
+<rdf:li>text/html</rdf:li>
+<rdf:li>text/plain</rdf:li>
+<rdf:li>text/vnd.wap.emn+xml</rdf:li>
+<rdf:li>text/vnd.wap.si</rdf:li>
+<rdf:li>text/vnd.wap.sl</rdf:li>
+<rdf:li>text/vnd.wap.wml</rdf:li>
+</rdf:Bag>
+</prf:Push-Accept>
+<prf:Push-Accept-Charset>
+<rdf:Bag>
+<rdf:li>ISO-8859-1</rdf:li>
+<rdf:li>ISO-10646-UCS-2</rdf:li>
+<rdf:li>US-ASCII</rdf:li>
+<rdf:li>UTF-8</rdf:li>
+</rdf:Bag>
+</prf:Push-Accept-Charset>
+<prf:Push-Accept-Encoding>
+<rdf:Bag>
+<rdf:li>base64</rdf:li>
+<rdf:li>quoted-printable</rdf:li>
+</rdf:Bag>
+</prf:Push-Accept-Encoding>
+<prf:Push-Accept-Language>
+<rdf:Seq>
+<rdf:li>en-US</rdf:li>
+</rdf:Seq>
+</prf:Push-Accept-Language>
+<prf:Push-Accept-AppID>
+<rdf:Bag>
+<rdf:li>x-wap-application:wml.ua</rdf:li>
+<rdf:li>*</rdf:li>
+</rdf:Bag>
+</prf:Push-Accept-AppID>
+<prf:Push-MsgSize>34170</prf:Push-MsgSize>
+<prf:Push-MaxPushReq>5</prf:Push-MaxPushReq>
+</rdf:Description>
+<!-- End of PushCharacteristics component -->
+</prf:component>
+<!--
+  Start of MmsCharacteristics component. MMS version 1.3
+-->
+<prf:component>
+<rdf:Description rdf:ID="MmsCharacteristics">
+<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema_mms-v1_3#MmsCharacteristics"/>
+<mms:MmsMaxMessageSize>1228800</mms:MmsMaxMessageSize>
+<mms:MmsMaxImageResolution>2048x1536</mms:MmsMaxImageResolution>
+<mms:MmsCcppAccept>
+<rdf:Bag>
+<rdf:li>application/java</rdf:li>
+<rdf:li>application/java-archive</rdf:li>
+<rdf:li>application/sdp</rdf:li>
+<rdf:li>application/smil</rdf:li>
+<rdf:li>application/vnd.nokia.landmarkcollection+xml</rdf:li>
+<rdf:li>application/vnd.nokia.ringing-tone</rdf:li>
+<rdf:li>application/vnd.oma.drm.content</rdf:li>
+<rdf:li>application/vnd.oma.drm.message</rdf:li>
+<rdf:li>application/vnd.wap.wmlc</rdf:li>
+<rdf:li>application/vnd.wap.xhtml+xml</rdf:li>
+<rdf:li>application/x-java-archive</rdf:li>
+<rdf:li>audio/3gpp</rdf:li>
+<rdf:li>audio/3gpp2</rdf:li>
+<rdf:li>audio/aac</rdf:li>
+<rdf:li>audio/amr</rdf:li>
+<rdf:li>audio/amr-wb</rdf:li>
+<rdf:li>audio/basic</rdf:li>
+<rdf:li>audio/mid</rdf:li>
+<rdf:li>audio/midi</rdf:li>
+<rdf:li>audio/mobile-xmf</rdf:li>
+<rdf:li>audio/mp3</rdf:li>
+<rdf:li>audio/mpeg</rdf:li>
+<rdf:li>audio/rmf</rdf:li>
+<rdf:li>audio/sp-midi</rdf:li>
+<rdf:li>audio/x-amr</rdf:li>
+<rdf:li>audio/x-beatnik-rmf</rdf:li>
+<rdf:li>audio/x-mid</rdf:li>
+<rdf:li>audio/x-midi</rdf:li>
+<rdf:li>audio/x-ms-wma</rdf:li>
+<rdf:li>audio/x-rmf</rdf:li>
+<rdf:li>audio/x-wav</rdf:li>
+<rdf:li>audio/vnd.dolby.heaac.1</rdf:li>
+<rdf:li>audio/vnd.dolby.heaac.2;channels=5.1</rdf:li>
+<rdf:li>audio/eac3</rdf:li>
+<rdf:li>audio/ac3</rdf:li>
+<rdf:li>audio/vnd.dolby.pulse</rdf:li>
+<rdf:li>image/bmp</rdf:li>
+<rdf:li>image/gif</rdf:li>
+<rdf:li>image/svg+xml</rdf:li>
+<rdf:li>image/jp2</rdf:li>
+<rdf:li>image/jpeg</rdf:li>
+<rdf:li>image/jpg</rdf:li>
+<rdf:li>image/png</rdf:li>
+<rdf:li>image/vnd.wap.wbmp</rdf:li>
+<rdf:li>image/x-bmp</rdf:li>
+<rdf:li>text/calendar</rdf:li>
+<rdf:li>text/plain</rdf:li>
+<rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+<rdf:li>text/x-vCalendar</rdf:li>
+<rdf:li>text/x-vCard</rdf:li>
+<rdf:li>video/3gpp</rdf:li>
+<rdf:li>video/3gpp2</rdf:li>
+<rdf:li>video/mp4</rdf:li>
+<rdf:li>x-epoc/x-sisx-app</rdf:li>
+</rdf:Bag>
+</mms:MmsCcppAccept>
+<mms:MmsCcppAcceptCharSet>
+<rdf:Bag>
+<rdf:li>ISO-8859-1</rdf:li>
+<rdf:li>ISO-10646-UCS-2</rdf:li>
+<rdf:li>US-ASCII</rdf:li>
+<rdf:li>UTF-8</rdf:li>
+</rdf:Bag>
+</mms:MmsCcppAcceptCharSet>
+<mms:MmsCcppAcceptLanguage>
+<rdf:Bag>
+<rdf:li>en-US</rdf:li>
+</rdf:Bag>
+</mms:MmsCcppAcceptLanguage>
+<mms:MmsVersion>
+<rdf:Bag>
+<rdf:li>1.3</rdf:li>
+</rdf:Bag>
+</mms:MmsVersion>
+<mms:MmsCcppStreamingCapable>Yes</mms:MmsCcppStreamingCapable>
+<mms:MmsSmilBaseSet>
+<rdf:Bag>
+<rdf:li>SMIL-CONF-1-2</rdf:li>
+<rdf:li>SMIL-3GPP-R4</rdf:li>
+</rdf:Bag>
+</mms:MmsSmilBaseSet>
+<mms:MmsContentClass>
+<rdf:Bag>
+<rdf:li>TX</rdf:li>
+<rdf:li>IB</rdf:li>
+<rdf:li>IR</rdf:li>
+<rdf:li>VB</rdf:li>
+<rdf:li>VR</rdf:li>
+<rdf:li>MP</rdf:li>
+<rdf:li>CB</rdf:li>
+<rdf:li>CR</rdf:li>
+</rdf:Bag>
+</mms:MmsContentClass>
+<mms:MmsXHTMLBaseSet>
+<rdf:Bag>
+<rdf:li>XHTMLMP-CONF-1-3</rdf:li>
+</rdf:Bag>
+</mms:MmsXHTMLBaseSet>
+<mms:MmsDrmClass>
+<rdf:Bag>
+<rdf:li>ForwardLock</rdf:li>
+<rdf:li>CombinedDelivery</rdf:li>
+<rdf:li>SeparateDelivery</rdf:li>
+</rdf:Bag>
+</mms:MmsDrmClass>
+<mms:MmsSuppressContentAdaptation>No</mms:MmsSuppressContentAdaptation>
+<mms:MmsApplicAddressingCapable>No</mms:MmsApplicAddressingCapable>
+</rdf:Description>
+<!--
+ End of MmsCharacteristics component. MMS version 1.3
+-->
+</prf:component>
+<!-- Start of PssCommon component. PSS6 -->
+<prf:component>
+<rdf:Description rdf:ID="PssCommon">
+<rdf:type rdf:resource="http://www.3gpp.org/profiles/PSS/ccppschema-PSS6#PssCommon"/>
+<pss6:AudioChannels>Stereo</pss6:AudioChannels>
+<pss6:PssVersion>3GPP-R6</pss6:PssVersion>
+<pss6:RenderingScreenSize>360x640</pss6:RenderingScreenSize>
+</rdf:Description>
+</prf:component>
+<prf:component>
+<rdf:Description rdf:ID="Streaming">
+<rdf:type rdf:resource="http://www.3gpp.org/profiles/PSS/ccppschema-PSS6#Streaming"/>
+<pss6:LinkChar>No</pss6:LinkChar>
+<pss6:AdaptationSupport>Yes</pss6:AdaptationSupport>
+<pss6:ExtendedRtcpReports>No</pss6:ExtendedRtcpReports>
+<pss6:RtpRetransmission>No</pss6:RtpRetransmission>
+<pss6:MediaAlternatives>No</pss6:MediaAlternatives>
+<pss6:RtpProfiles>
+<rdf:Bag>
+<rdf:li>RTP/AVP</rdf:li>
+</rdf:Bag>
+</pss6:RtpProfiles>
+<pss6:StreamingOmaDrm>
+<rdf:Bag>
+<rdf:li>0.0</rdf:li>
+</rdf:Bag>
+</pss6:StreamingOmaDrm>
+<pss6:PSSIntegrity>
+<rdf:Bag>
+<rdf:li>No</rdf:li>
+</rdf:Bag>
+</pss6:PSSIntegrity>
+<pss6:VideoDecodingByteRate>2500000</pss6:VideoDecodingByteRate>
+<pss6:VideoInitialPostDecoderBufferingPeriod>0</pss6:VideoInitialPostDecoderBufferingPeriod>
+<pss6:VideoPreDecoderBufferSize>64000000</pss6:VideoPreDecoderBufferSize>
+<pss6:StreamingAccept>
+<rdf:Bag>
+<rdf:li>application/vnd.rn-realmedia</rdf:li>
+<rdf:li>audio/3gpp</rdf:li>
+<rdf:li>audio/AMR</rdf:li>
+<rdf:li>audio/AMR-WB</rdf:li>
+<rdf:li>audio/mp4</rdf:li>
+<rdf:li>audio/MP4A-LATM</rdf:li>
+<rdf:li>audio/mpeg4-generic</rdf:li>
+<rdf:li>audio/vnd.rn-realaudio</rdf:li>
+<rdf:li>audio/X-AMR-COD</rdf:li>
+<rdf:li>audio/x-ms-wma</rdf:li>
+<rdf:li>audio/x-pn-multirate-realaudio-live</rdf:li>
+<rdf:li>audio/x-pn-realaudio</rdf:li>
+<rdf:li>audio/x-realaudio</rdf:li>
+<rdf:li>audio/X-RN-3GPP-AMR</rdf:li>
+<rdf:li>audio/X-RN-3GPP-AMR-WB</rdf:li>
+<rdf:li>audio/X-RN-MP4-RAWAU</rdf:li>
+<rdf:li>video/3gpp</rdf:li>
+<rdf:li>video/3gpp2</rdf:li>
+<rdf:li>video/H263-1998; profile=0; level=30</rdf:li>
+<rdf:li>video/H263-2000; profile=0; level=30</rdf:li>
+<rdf:li>video/H264</rdf:li>
+<rdf:li>video/mp4</rdf:li>
+<rdf:li>video/MP4V-ES</rdf:li>
+<rdf:li>video/mpeg4</rdf:li>
+<rdf:li>video/x-ms-wmv</rdf:li>
+<rdf:li>video/x-pn-realvideo</rdf:li>
+<rdf:li>video/X-RN-3GPP-H263</rdf:li>
+<rdf:li>video/X-RN-H264</rdf:li>
+<rdf:li>video/X-RN-MP4</rdf:li>
+<rdf:li>application/vnd.ms-asf</rdf:li>
+</rdf:Bag>
+</pss6:StreamingAccept>
+</rdf:Description>
+<!-- End of Streaming component. PSS6 -->
+</prf:component>
+<!-- Start of ThreeGPFileFormat component. PSS6 -->
+<prf:component>
+<rdf:Description rdf:ID="ThreeGPFileFormat">
+<rdf:type rdf:resource="http://www.3gpp.org/profiles/PSS/ccppschema-PSS6#ThreeGPFileFormat"/>
+<pss6:Brands>
+<rdf:Bag>
+<rdf:li>3gp4</rdf:li>
+<rdf:li>3gp5</rdf:li>
+<rdf:li>3gp6</rdf:li>
+<rdf:li>3gr6</rdf:li>
+<rdf:li>3gs6</rdf:li>
+</rdf:Bag>
+</pss6:Brands>
+<pss6:ThreeGPAccept>
+<rdf:Bag>
+<rdf:li>audio/3gpp</rdf:li>
+<rdf:li>audio/AMR</rdf:li>
+<rdf:li>audio/AMR-WB</rdf:li>
+<rdf:li>audio/mp4</rdf:li>
+<rdf:li>audio/MP4A-LATM</rdf:li>
+<rdf:li>audio/mpeg4-generic</rdf:li>
+<rdf:li>audio/X-AMR-COD</rdf:li>
+<rdf:li>video/3gpp</rdf:li>
+<rdf:li>video/3gpp2</rdf:li>
+<rdf:li>video/H263-1998; profile=0; level=30</rdf:li>
+<rdf:li>video/H263-2000; profile=0; level=30</rdf:li>
+<rdf:li>video/X-RN-H264</rdf:li>
+<rdf:li>video/mp4</rdf:li>
+<rdf:li>video/MP4V-ES</rdf:li>
+<rdf:li>video/mpeg4</rdf:li>
+</rdf:Bag>
+</pss6:ThreeGPAccept>
+<pss6:ThreeGPOmaDrm>
+<rdf:Bag>
+<rdf:li>1.0</rdf:li>
+<rdf:li>2.0</rdf:li>
+</rdf:Bag>
+</pss6:ThreeGPOmaDrm>
+</rdf:Description>
+<!-- End of ThreeGPFileFormat component. PSS6 -->
+</prf:component>
+<!-- Start of PssSmilcomponent. PSS6 -->
+<!-- empty -->
+<!-- End of PssSmilcomponent. PSS6 -->
+</rdf:Description>
+<!-- End of Uaprofile-->
+</rdf:RDF>
