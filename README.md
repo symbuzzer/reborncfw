@@ -39,7 +39,8 @@
 ## NOTES
 - ConnTest URL should be: ```https://symbuzzer.github.io/reborncfw/conntest/``` not ```symbuzzer.github.io/reborncfw/conntest``` or ```http://symbuzzer.github.io/reborncfw/conntest```
 - Dummy URL should be ```https://symbuzzer.github.io/reborncfw/dummy/``` not ```symbuzzer.github.io/reborncfw/dummy``` or ```http://symbuzzer.github.io/reborncfw/dummy```
-- UAProf XML URL should be ```https://raw.githubusercontent.com/symbuzzer/reborncfw/refs/heads/main/uaprof/NN8-00r310-3G.xml``` in ROFS2\private\10202be9\101f8731.txt file
+- For N8, UAProf XML URL should be ```https://raw.githubusercontent.com/symbuzzer/reborncfw/refs/heads/main/uaprof/NN8-00r310-3G.xml``` in ROFS2\private\10202be9\101f8731.txt file
+- For E7, UAProf XML URL should be ```https://raw.githubusercontent.com/symbuzzer/reborncfw/refs/heads/main/uaprof/NE7-00r310.xml``` in ROFS2\private\10202be9\101f8731.txt file
 - Version value in ```CORE\data\update\index.htm``` file should be the same length as the value in the redirected PHP file. Please browse to the ```.examples/cfwupdatecheck.php``` file.
 
 ## ACTIVE SERVER
