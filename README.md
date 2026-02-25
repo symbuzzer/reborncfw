@@ -24,17 +24,17 @@
 ## FOLDERS
 - **conntest** : Connection test server URL
 - **dummy** : Dummy URL for EoL services
-- **eol** : EoL alert message URL for EoL services *(for example Big Screen app)*
 - **homepage** : Homepage of default browser
-- **review** : Review widget URL
 - **store** : Store widget URL
 - **tts** : URL of ```Settings > Phone > Speech > Download languages``` option
-- **update** : Update checker widget URL
+- **update/N8** : Update checker widget URL for N8
+- **update/E7** : Update checker widget URL for E7
 - **y** : 3rd party Youtube service URL in default bookmarks and Store option in Videos app when Store app not installed.
 
 ## FILES
 - **index.htm** : Reborn CFW URL in default bookmarks
-- **uaprof/NN8-00r310-3G.xml** : UAProf file
+- **uaprof/NN8-00r310-3G.xml** : UAProf file for N8
+- **uaprof/NE7-00r310.xml** : UAProf file for E7
 
 ## NOTES
 - ConnTest URL should be: ```https://symbuzzer.github.io/reborncfw/conntest/``` not ```symbuzzer.github.io/reborncfw/conntest``` or ```http://symbuzzer.github.io/reborncfw/conntest```
