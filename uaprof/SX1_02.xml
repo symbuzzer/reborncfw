@@ -1,0 +1,280 @@
+<rdf:RDF>
+<rdf:Description ID="SX1_Profile">
+<prf:component>
+<rdf:Description ID="HardwarePlatform">
+<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#HardwarePlatform"/>
+<!-- General -->
+<prf:Vendor>Siemens</prf:Vendor>
+<prf:Model>SX1</prf:Model>
+<!-- Bluetooth -->
+<prf:BluetoothProfile>
+<rdf:Bag>
+<rdf:li>HandsFree</rdf:li>
+<rdf:li>DialUp</rdf:li>
+<rdf:li>SerialPort</rdf:li>
+<rdf:li>Fax</rdf:li>
+<rdf:li>ObjectPush</rdf:li>
+<rdf:li>FileTransfer</rdf:li>
+</rdf:Bag>
+</prf:BluetoothProfile>
+<!-- Display -->
+<prf:BitsPerPixel>16</prf:BitsPerPixel>
+<prf:ColorCapable>Yes</prf:ColorCapable>
+<prf:ImageCapable>Yes</prf:ImageCapable>
+<prf:ScreenSize>176x208</prf:ScreenSize>
+<prf:ScreenSizeChar>15x6</prf:ScreenSizeChar>
+<!-- Keyboard -->
+<prf:Keyboard>PhoneKeypad</prf:Keyboard>
+<prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+<prf:TextInputCapable>Yes</prf:TextInputCapable>
+<!-- Sound -->
+<prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+<prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+<prf:VoiceInputCapable>Yes</prf:VoiceInputCapable>
+<!-- Char sets -->
+<prf:OutputCharSet>
+<rdf:Bag>
+<rdf:li>US-ASCII</rdf:li>
+<rdf:li>UTF-8</rdf:li>
+<rdf:li>ISO-10646-UCS-2</rdf:li>
+<rdf:li>ISO-5589-1</rdf:li>
+</rdf:Bag>
+</prf:OutputCharSet>
+<prf:InputCharSet>
+<rdf:Bag>
+<rdf:li>US-ASCII</rdf:li>
+<rdf:li>UTF-8</rdf:li>
+<rdf:li>UTF-16</rdf:li>
+<rdf:li>ISO-10646-UCS-2</rdf:li>
+</rdf:Bag>
+</prf:InputCharSet>
+</rdf:Description>
+</prf:component>
+<prf:component>
+<rdf:Description ID="SoftwarePlatform">
+<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#SoftwarePlatform"/>
+<!-- Java -->
+<prf:JavaEnabled>Yes</prf:JavaEnabled>
+<prf:JVMVersion>SunJ2ME1.0</prf:JVMVersion>
+<prf:JavaPlatform>
+<rdf:Bag>
+<rdf:li>MIDP/1.0-compatible</rdf:li>
+</rdf:Bag>
+</prf:JavaPlatform>
+<!-- OS -->
+<prf:OSName>Symbian OS</prf:OSName>
+<prf:OSVendor>Symbian LTD</prf:OSVendor>
+<prf:SoftwareNumber>6.1</prf:SoftwareNumber>
+<prf:AcceptDownloadableSoftware>Yes</prf:AcceptDownloadableSoftware>
+<prf:DownloadableSoftwareSupport>
+<rdf:Bag>
+<rdf:li>application/vnd.sun.java</rdf:li>
+<rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+<rdf:li>application/java-archive</rdf:li>
+<rdf:li>application/vnd.symbian.install</rdf:li>
+</rdf:Bag>
+</prf:DownloadableSoftwareSupport>
+</rdf:Description>
+</prf:component>
+<prf:component>
+<rdf:Description ID="NetworkCharacteristics">
+<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#NetworkCharacteristics"/>
+<!-- Network Info -->
+<prf:SecuritySupport>
+<rdf:Bag>
+<rdf:li>WTLS-1</rdf:li>
+<rdf:li>WTLS-2</rdf:li>
+</rdf:Bag>
+</prf:SecuritySupport>
+<prf:SupportedBearers>
+<rdf:Bag>
+<rdf:li>GPRS</rdf:li>
+<rdf:li>CSD</rdf:li>
+</rdf:Bag>
+</prf:SupportedBearers>
+</rdf:Description>
+</prf:component>
+<prf:component>
+<rdf:Description ID="BrowserUA">
+<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#BrowserUA"/>
+<!-- Browser Info -->
+<prf:BrowserName>Siemens Mobile Internet Client</prf:BrowserName>
+<prf:BrowserVersion>3.0</prf:BrowserVersion>
+<!-- Browser Capabilities -->
+<prf:FramesCapable>No</prf:FramesCapable>
+<prf:TablesCapable>Yes</prf:TablesCapable>
+<prf:JavaAppletEnabled>Yes</prf:JavaAppletEnabled>
+<prf:JavaScriptEnabled>No</prf:JavaScriptEnabled>
+<!--<prf:HtmlVersion>4.0</prf:HtmlVersion>-->
+<prf:XhtmlVersion>1.0</prf:XhtmlVersion>
+<prf:CcppAccept>
+<rdf:Bag>
+<rdf:li>application/vnd.wap.wmlc</rdf:li>
+<rdf:li>application/vnd.wap.wbxml</rdf:li>
+<rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+<rdf:li>text/x-vCard</rdf:li>
+<rdf:li>text/x-vCalendar</rdf:li>
+<rdf:li>text/calendar</rdf:li>
+<rdf:li>image/vnd.wap.wbmp</rdf:li>
+<rdf:li>image/gif</rdf:li>
+<rdf:li>image/jpeg</rdf:li>
+<rdf:li>image/png</rdf:li>
+<rdf:li>application/vnd.wap.sic</rdf:li>
+<rdf:li>application/vnd.wap.sia</rdf:li>
+<rdf:li>application/vnd.wap.wtls-ca-certificate</rdf:li>
+<rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+<rdf:li>application/vnd.symbian.install</rdf:li>
+<rdf:li>application/java-archive</rdf:li>
+<rdf:li>audio/x-beatnik-rmf </rdf:li>
+<rdf:li>audio/x-epoc-wve</rdf:li>
+<rdf:li>audio/x-sibo-wve</rdf:li>
+<rdf:li>image/x-epoc-mbm</rdf:li>
+<rdf:li>video/3gpp</rdf:li>
+<rdf:li>video/mp4</rdf:li>
+<rdf:li>audio/sp-midi</rdf:li>
+<rdf:li>audio/midi</rdf:li>
+<rdf:li>audio/x-wav</rdf:li>
+<rdf:li>audio/basic</rdf:li>
+<rdf:li>audio/xmf</rdf:li>
+<rdf:li>audio/smaf</rdf:li>
+<rdf:li>audio/imelody</rdf:li>
+<rdf:li>image/x-wmf</rdf:li>
+<rdf:li>image/x-bmp</rdf:li>
+<rdf:li>image/jpeg</rdf:li>
+<rdf:li>image/png</rdf:li>
+<rdf:li>image/gif</rdf:li>
+<rdf:li>image/tiff</rdf:li>
+<rdf:li>text/plain</rdf:li>
+<rdf:li>audio/amr</rdf:li>
+<rdf:li>application/vnd.oma.drm.message</rdf:li>
+</rdf:Bag>
+</prf:CcppAccept>
+<prf:CcppAccept-Charset>
+<rdf:Bag>
+<rdf:li>US-ASCII</rdf:li>
+<rdf:li>ISO-8859-1</rdf:li>
+<rdf:li>UTF-8</rdf:li>
+<rdf:li>ISO-10646-UCS-2</rdf:li>
+</rdf:Bag>
+</prf:CcppAccept-Charset>
+</rdf:Description>
+</prf:component>
+<prf:component>
+<rdf:Description ID="WapCharacteristics">
+<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#WapCharacteristics"/>
+<!-- Supported WAP version -->
+<prf:WapVersion>1.2.1</prf:WapVersion>
+<!-- WML capabilities -->
+<prf:WapDeviceClass>C</prf:WapDeviceClass>
+<prf:WapPushMsgSize>34170</prf:WapPushMsgSize>
+<prf:WmlDeckSize>357000</prf:WmlDeckSize>
+<prf:WmlVersion>
+<rdf:Bag>
+<rdf:li>1.3</rdf:li>
+<rdf:li>1.2.1</rdf:li>
+<rdf:li>June/2000</rdf:li>
+<rdf:li>1.2</rdf:li>
+<rdf:li>1.1</rdf:li>
+</rdf:Bag>
+</prf:WmlVersion>
+<prf:WmlScriptVersion>
+<rdf:Bag>
+<rdf:li>1.2.1</rdf:li>
+<rdf:li>June/2000</rdf:li>
+<rdf:li>1.2</rdf:li>
+<rdf:li>1.1</rdf:li>
+</rdf:Bag>
+</prf:WmlScriptVersion>
+<prf:WmlScriptLibraries>
+<rdf:Bag>
+<rdf:li>Lang</rdf:li>
+<rdf:li>Float</rdf:li>
+<rdf:li>String</rdf:li>
+<rdf:li>URL</rdf:li>
+<rdf:li>WMLBrowser</rdf:li>
+<rdf:li>Dialogs</rdf:li>
+</rdf:Bag>
+</prf:WmlScriptLibraries>
+<!-- WTAI -->
+<prf:WtaiLibraries>
+<rdf:Bag>
+<rdf:li>WTA.Public.makeCall</rdf:li>
+<rdf:li>WTA.Public.sendDTMF</rdf:li>
+<rdf:li>WTA.Public.addPBEntry</rdf:li>
+</rdf:Bag>
+</prf:WtaiLibraries>
+<!-- DRM -->
+<prf:DrmClass>
+<rdf:Bag>
+<rdf:li>ForwardLock</rdf:li>
+</rdf:Bag>
+</prf:DrmClass>
+</rdf:Description>
+</prf:component>
+<prf:component>
+<rdf:Description ID="PushCharacteristics">
+<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#PushCharacteristics"/>
+<!-- Accepted Push-Applications -->
+<prf:Push-Accept-AppID>
+<rdf:Bag>
+<rdf:li>urn:x-wap-application:push.sia</rdf:li>
+<rdf:li>urn:x-wap-application:wml.ua</rdf:li>
+<rdf:li>urn:x-wap-openwave:iota.ua</rdf:li>
+</rdf:Bag>
+</prf:Push-Accept-AppID>
+</rdf:Description>
+</prf:component>
+<prf:component>
+<rdf:Description ID="MmsCharacteristics">
+<rdf:type resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics"/>
+<prf:MmsMaxMessageSize>102400</prf:MmsMaxMessageSize>
+<prf:MmsMaxImageResolution>640x480</prf:MmsMaxImageResolution>
+<prf:MmsVersion>1.0</prf:MmsVersion>
+<prf:MmsCcppAccept>
+<rdf:Bag>
+<rdf:li>image/jpeg</rdf:li>
+<rdf:li>image/gif</rdf:li>
+<rdf:li>image/png</rdf:li>
+<rdf:li>image/vnd.wap.wbmp</rdf:li>
+<rdf:li>image/x-bmp</rdf:li>
+<rdf:li>audio/amr</rdf:li>
+<rdf:li>audio/x-amr</rdf:li>
+<rdf:li>audio/x-wav</rdf:li>
+<rdf:li>audio/midi</rdf:li>
+<rdf:li>audio/x-midi</rdf:li>
+<rdf:li>audio/sp-midi</rdf:li>
+<rdf:li>audio/rmf</rdf:li>
+<rdf:li>audio/x-rmf</rdf:li>
+<rdf:li>audio/x-beatnik-rmf</rdf:li>
+<rdf:li>audio/basic</rdf:li>
+<rdf:li>audio/xmf</rdf:li>
+<rdf:li>audio/smaf</rdf:li>
+<rdf:li>audio/imelody</rdf:li>
+<rdf:li>video/3gpp</rdf:li>
+<rdf:li>text/plain</rdf:li>
+<rdf:li>text/x-vCard</rdf:li>
+<rdf:li>text/x-vCalendar</rdf:li>
+<rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+<rdf:li>application/smil</rdf:li>
+<rdf:li>application/java-archive</rdf:li>
+<rdf:li>application/x-java-archive</rdf:li>
+<rdf:li>application/vnd.wap.wmlc</rdf:li>
+<rdf:li>application/vnd.symbian.install</rdf:li>
+<rdf:li>application/vnd.oma.drm.message</rdf:li>
+</rdf:Bag>
+</prf:MmsCcppAccept>
+<prf:MmsCcppAcceptCharSet>
+<rdf:Bag>
+<rdf:li>UTF-8</rdf:li>
+<rdf:li>UTF-16</rdf:li>
+<rdf:li>US-ASCII</rdf:li>
+<rdf:li>ISO-10646-UCS-2</rdf:li>
+<rdf:li>ISO-8859-1</rdf:li>
+</rdf:Bag>
+</prf:MmsCcppAcceptCharSet>
+</rdf:Description>
+</prf:component>
+</rdf:Description>
+</rdf:RDF>
